@@ -1,0 +1,37 @@
+.modal-content {
+  background-color: #292929;
+}
+
+.myModal_title{
+  color: #fff;
+  font-size: 16px;
+  
+}
+.modal-header {
+  border-bottom: 0;
+}
+
+.myModal a{
+  color: #cc9c3b;
+  display: block;
+  margin-bottom: 10px;
+}
+.myModal a:hover, a:focus {
+  color: #fbae17;
+}
+
+.myModal .myModal-control {
+  font-size: 14px;
+  line-height: 1.4;
+  height: 32px;
+  border-radius: 4px;
+  color: #fff;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.myModal .myModal-control:focus {
+  color: #fff;
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}

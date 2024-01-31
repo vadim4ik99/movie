@@ -1,0 +1,48 @@
+.page-item.active .page-link {
+  background-color: #FBAE17;
+  color: black;
+  border: 0;
+
+}
+
+.custom-pagination a {
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, .2);
+  color: #fff;
+  border: none;
+}
+
+.custom-pagination .page-link:hover{
+  background-color: orange;
+  color: #000;
+  text-decoration: none;
+}
+
+.custom-pagination .page-link:focus{
+  background-color: orange;
+  border: none;
+  color: #000;
+}
+
+.custom-pagination .page-link:active {
+  background-color: orange;
+  color: #000;
+}
+
+.page-link {
+  font-size: 14px;
+}
+
+.page-item.disabled {
+  cursor: not-allowed;
+}
+
+.page-item.disabled .page-link, .page-link.disabled {
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, .2);
+  border: none;
+}
+
+span[aria-hidden="true"] {
+  color: rgba(255, 255, 255, .5);
+}

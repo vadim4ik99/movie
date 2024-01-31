@@ -1,0 +1,85 @@
+.Sidebar {
+  flex: 0 0 200px;
+  text-align: left;
+  font-size: 14px;
+  color: rgba(255, 255, 255, .6);
+  cursor: pointer;
+  text-decoration: none;
+  background: #1A1A1A;
+  min-height: 1000px;
+  padding: 0 20px;
+}
+.Sidebar_logo {
+  margin-top: 5px;
+}
+.Sidebar_logo a{
+  display: block;
+  background: url("https://st.kinovod.net/static/images/logo.png") 50% 50% no-repeat;
+  width: 160px;
+  height: 90px;
+}
+
+.Sidebar li{
+  margin-bottom: 6px;
+}
+
+.Sidebar li a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, .6);
+  line-height: 20px;
+  transition: .2s color;
+}
+
+.Sidebar li a:hover{
+  color: #fbae17;
+}
+
+.Sidebar hr{
+  margin: 15px 0;
+  border: 0;
+  border-top: 1px solid #252525;
+  opacity: 100;
+}
+
+.Sidebar_form {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.Sidebar_form svg {
+  position: absolute;
+  top: 8px;
+  left: 135px;
+}
+
+.Sidebar_search {
+  font-size: 12px;
+  color: rgba(255, 255, 255, .4);
+  border-radius: 3px;
+  padding: 8px 32px 8px 12px;
+}
+
+.SearchResults {
+  position: absolute;
+    width: 400px;
+    max-height: 300px;
+    z-index: 9999;
+    top: 126px;
+    left: 20px;
+    color: #999;
+    background: #191919;
+    border: 1px solid #111;
+    overflow: auto;
+    margin-top: 3px;
+    max-height: 400px !important;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.SearchResults li {
+  padding: 6px 10px;
+}
+
+.SearchResults li:hover {
+  background:#111;
+}

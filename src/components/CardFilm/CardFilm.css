@@ -1,0 +1,52 @@
+.CardFilm {
+  max-width: 242px;
+  margin-bottom: 25px;
+  padding-right: 5px;
+  background: #1e1e1e;
+  text-align: center;
+  color: #CAC8C8;
+  border: none;
+}
+
+.CardFilm a{
+  text-decoration: none;
+}
+
+.CardFilm_body { 
+  padding: 8px;
+  text-align: center;
+  height: 60px;
+}
+
+.CardFilm_title {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 4px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.CardFilm_title a{
+  color: #fff;
+}
+
+.img-card-film{
+  height: auto;
+}
+
+.CardFilm_title a:hover{
+  text-decoration: underline;
+}
+
+.CardFilm_info {
+  color: rgba(255, 255, 255, .5);
+  font-size: 12px;
+}
+
+.CardFilm:hover .favorite {
+  visibility: visible;
+}

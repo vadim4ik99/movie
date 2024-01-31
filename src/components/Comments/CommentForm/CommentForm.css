@@ -1,0 +1,22 @@
+.commentForm {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.commentCountTitle{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #CAC8C8;
+}
+
+.addCommentForm{
+  margin-bottom: 10px;
+}
+
+#numberOfComments {
+  padding-left: 0;
+  padding-right: 5px;
+}

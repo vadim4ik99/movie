@@ -1,0 +1,56 @@
+.watch li>a{
+  color: #fff;
+}
+
+.poster {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 260px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.movie{
+  position: relative;
+  padding-top: 2px;
+}
+
+.raiting-movie{
+  background-color: #1F1F1F;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.raiting-movie p{
+  margin-bottom: 0;
+}
+
+.description-movie p{
+ padding: 0;
+}
+
+.TabContent iframe {
+  height: auto;
+}
+
+.movie-ads-info{
+  margin-top: 20px;
+}
+
+.movie-ads-info p{
+  color: #777;
+  padding: 0;
+  margin: 0;
+
+}
+
+.collections {
+  margin-top: 15px;
+}
+
+.Main .collections li{
+  list-style-type: decimal;
+  margin-bottom: 5px;
+}
+

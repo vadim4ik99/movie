@@ -1,0 +1,28 @@
+.custom-list-history{
+  margin-top: 2px;
+  background-color: #262626;
+  cursor: pointer;
+  border: none;
+}
+
+.custom-list-history a{
+  color: #cc9c3b;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.custom-list-history:hover{
+  background-color: #1a1a1a;
+}
+
+.custom-list-history.active{
+  background-color: #1a1a1a;
+}
+
+.custom-list-history:hover a{
+  color: #fbae17;
+}
+
+.custom-list-history.active a{
+  color: white;
+}
